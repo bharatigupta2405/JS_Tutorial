@@ -6,7 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>35 px</h1>
-    <h2>24px</h2>
+    <p1>welcome to my js notes</p1>
+    <h1>Hi There</h1>
+    <div id="firstcontainer" class="container"> 
+    <!-- div.container to write a class whose name is container imp- (.) dot is used for class -->
+    <!-- firstcontainer.innerHTML='Hello'
+    O/P-'Hello' (in Output screen as well as in console)
+    firstcontainer.innerHTML='<b>Hello you are bold now </b>'
+    O/P- '<b>Hello you are bold now </b>' (in Output screen as well as in console and <b> tag will disappear in browser and appear in bold) -->
+    <!-- DOM Manipulation-
+        document.getElementsByTagName('h1') // to get all the element whose tag is h1 it will return a array and we can manipulate that h1 according to our need
+        HTMLCollection []length: 0
+        [[Prototype]]: HTMLCollectionitem: ƒ item()length: (...)namedItem: ƒ etc.
+
+         document.getElementsByTagName('h1')[0].style.fontSize='99px'
+        '99px''in browser you will see first para which use H1 tag whose size is 99 px now'
+
+        document.getElementsByTagName('h1')[0].style.background='red'
+        'red' (now background of h1 element is red)
+        
+        document.getElementsByTagName('h1')[0].style.visibility='Hidden'
+        'Hidden' (now the h1 element is not visible it's hidden but the space where the element was there was blank )
+    
+        document.getElementsByTagName('h1')[0].style.visibility='none'
+        'none' (now the space it was taking previously ab wo v nai legi)
+    -->
+        <button id="click">click me</button> 
+         <!-- // button#click is used to create a id which is used to click # is used to create a ID -->
+
+    </div>
+    <script>
+        console.log('Hello World');//to print anything on console
+        alert('Hi there');// to show an alert
+
+    </script>
 </body>
 </html>
