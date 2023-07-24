@@ -15,20 +15,21 @@
         // what are variables?--> container to store data values
         // single line comment shortcut -> ctrl+/
         // multi line comment --?/* comment */
+        // to edit multiple things one time click alt+click then edit
         var Number1= 56;
         var Number2= 60;
-        console.log( Number1+Number2);
+        // console.log( Number1+Number2);
         /*4)--------------------------- DATA TYPES IN JAVASCRIPT-------------------------*/
 
         //Numbers
         var num1= 90;
         var num2=90.9777; //float
-        console.log(num1,num2);
+        // console.log(num1,num2);
 
         //String
         var str1= 'This is string in single quote'
         var str2= "This is string in double quote"
-        console.log(str1,str2)
+        // console.log(str1,str2)
 
         // Object **
         var marks={
@@ -37,33 +38,75 @@
             Abhimanyu: 100
         }// it takes value in key value pair
 
-        console.log(marks)
+        // console.log(marks)
 
         //Booleans
 
-        var a= true;
-        var b= false;
-        console.log(a,b);
+        // var a= true;
+        // var b= false;
+        // console.log(a,b);
 
         //Undefined
         // var und= undefined;
         // console.log(und)
 
-        var c;
-        console.log(c)//it will print undefined since hmne eski value define nai ki h
+        // var c;
+        // console.log(c)//it will print undefined since hmne eski value define nai ki h
 
         //NULL
-        var n=null;
-        console.log(n) //it will print null qki hmne esme kaha h ki kuch mat rakho eski value nothing so ye main diff h undefined or null me
+        // var n=null;
+        // console.log(n) //it will print null qki hmne esme kaha h ki kuch mat rakho eski value nothing so ye main diff h undefined or null me
 
         //array (collection of elements it can either be string num etc.)
-        var arr=[1,2,3,4,5]
-        console.log(arr)//O/P- [1,2,3,4,5]
-        console.log(arr[0])// O/P- 1
+        // var arr=[1,2,3,4,5]
+        // console.log(arr)//O/P- [1,2,3,4,5]
+        // console.log(arr[0])// O/P- 1
 
 
         /* at a very high level there are two types of data type in JavaScript
         1) primitive data type: Undefined, null, number, boolean, symbol, string.
         2) reference data type: Arrays and Objects
         */
+
+        /*5)----------------------------Operators in JS----------------------*/
+        //Arithmatic Operator
+        // var a =100;
+        // var b = 10;
+        // console.log('The value of a+b is',a+b)
+        // console.log('The value of a-b is' ,a-b)
+        // console.log('The value of a*b is'  ,a*b)
+        // console.log('The value of a/b is' ,a/b)
+
+        //Assignment Operator
+        // var c=b;
+        // console.log(c)//O/P=10
+        // c+=2//c=c+2
+        // c-=2//c=c-2
+        // c*=2//c=c*2
+        // c/=2//c=c/2
+
+        //Comparison Operator
+        // var x=34;
+        // var y=56;
+        // console.log(x==y);//false
+        // console.log(x<=y);//true
+        // console.log(x!=y);//true
+        // console.log(x>=y);//false
+        // console.log(x>y);//false
+        // console.log(x<y);//true
+
+        //Logical Operator
+        console.log(true && true)// true
+        console.log(true && false)//false
+        console.log(false && true) //false
+        console.log(false && false)//false
+
+        console.log(true ||  true)// true
+        console.log(true || false)//true
+        console.log(false || true) //true
+        console.log(false ||  false)//false
+        
+
+
+
 
