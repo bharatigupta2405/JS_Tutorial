@@ -113,7 +113,20 @@
         // console.log(!false)//true
 
         //Operator is +,-,*,/ etc and Operands is jispar hm ye operations kar rahe h
+
+
+
+        /*------------------------------Functions in JS-----------------*/
+        //functions are dry it means we don't need to write same function again and again
+        //in chrome if you see anything in blue colour it means it is a number and in black it's a string
         
+        function avg(a,b){
+            return (a+b)/2
+        }
+
+        c1=avg(14,6)
+        c2=avg(5,8)
+        console.log(c1,c2)
 
 
 
