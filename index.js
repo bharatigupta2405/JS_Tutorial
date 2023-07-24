@@ -96,15 +96,23 @@
         // console.log(x<y);//true
 
         //Logical Operator
-        console.log(true && true)// true
-        console.log(true && false)//false
-        console.log(false && true) //false
-        console.log(false && false)//false
+        // //Logical AND
+        // console.log(true && true)// true
+        // console.log(true && false)//false
+        // console.log(false && true) //false
+        // console.log(false && false)//false
 
-        console.log(true ||  true)// true
-        console.log(true || false)//true
-        console.log(false || true) //true
-        console.log(false ||  false)//false
+        // //Logical OR
+        // console.log(true ||  true)// true
+        // console.log(true || false)//true
+        // console.log(false || true) //true
+        // console.log(false ||  false)//false
+        
+        // //Logical NOR
+        // console.log(!true)//false
+        // console.log(!false)//true
+
+        //Operator is +,-,*,/ etc and Operands is jispar hm ye operations kar rahe h
         
 
 
