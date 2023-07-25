@@ -126,7 +126,37 @@
 
         c1=avg(14,6)
         c2=avg(5,8)
-        console.log(c1,c2)
+        // console.log(c1,c2)
+
+        /*------------------------Conditional Operator---------------------*/
+        // if else conditions
+
+
+        // var age=4;
+        // if (age>8){
+        //     console.log('You are not a kid');
+        // }
+        // else{
+        //     console.log('You are a kid');
+        // }
+
+
+        // if-else ladder
+        var age =60
+        if (age>82){
+            console.log('You are not a kid');
+        }
+        else if(age>26){
+            console.log('You are a kid');
+        }
+        else if(age >6){
+            console.log('you are a child')
+        }
+        else{
+            console.log('fuck off')
+        }
+
+
 
 
 
