@@ -131,14 +131,14 @@
         /*------------------------Conditional Operator---------------------*/
         // if else conditions
 
-
-        // var age=4;
-        // if (age>8){
-        //     console.log('You are not a kid');
-        // }
-        // else{
-        //     console.log('You are a kid');
-        // }
+        /*
+        var age=4;
+        if (age>8){
+            console.log('You are not a kid');
+        }
+        else{
+            console.log('You are a kid');
+        }
 
 
         // if-else ladder
@@ -155,6 +155,25 @@
         else{
             console.log('fuck off')
         }
+        */
+
+        //------------------------FOR LOOP-------------------------//
+        /*
+        var arr=[1,2,3,4,5,6,7]
+        for(var i=0;i<arr.length;i++){
+            console.log(arr[i])
+        }
+        /*<--------------------Foreach function in JS--------------------->*/
+        
+        arr.forEach(element => {
+            console.log(element)
+        });
+        */
+
+        /*---------------while loop-----------------*/
+
+        let j=0 // the main difference of let and var is let ka use ek block ke andar he rahta h 
+        //for example wo curly braces ke andar define kiya to uske bahar js usko nai pahchanega but var har jagah rahta h
 
 
 
