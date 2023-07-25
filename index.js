@@ -221,14 +221,30 @@ let myArr=[34,'Bharati','food',null,true]
 // console.log(myArr)
 
 /*------------------------------------String Methods----------------------------------*/
-let myString= 'Bharati is a good girl good good';
-console.log(myString.length);//return the length of the string
-console.log(myString.indexOf('good'));//return the first index of good
-console.log(myString.lastIndexOf('good'));//return the last index of good
-console.log(myString.slice(1,3))//print 1st index to 3-1 index
-d=myString.replace('Bharati','harsh');//replace first occurance of bharati with harsh
-console.log(d,myString)
+// let myString= 'Bharati is a good girl good good';
+// console.log(myString.length);//return the length of the string
+// console.log(myString.indexOf('good'));//return the first index of good
+// console.log(myString.lastIndexOf('good'));//return the last index of good
+// console.log(myString.slice(1,3))//print 1st index to 3-1 index
+// d=myString.replace('Bharati','harsh');//replace first occurance of bharati with harsh
+// console.log(d,myString)
 
+
+/*----------------------------------------date time function-----------------------*/
+
+/*
+let myDate= new Date(); //new date is used to make new date
+console.log(myDate)//O/p- Tue Jul 25 2023 21:25:23 GMT+0530 (India Standard Time)
+console.log(myDate.getTime())//it will give time in seconds o/p- 1690300523686
+console.log(myDate.getFullYear());//it will return the current year o/p- 2023
+console.log(myDate.getDay()); //it will return the no of day in a week for ex tuesday is 2nd day of a week so 2 o/p- 2
+console.log(myDate.getMinutes()); //it will return the current minute in an hour not the whole day minute o/p- 25
+console.log(myDate.getHours()); //o/p - 21
+
+*/
+
+
+/*---------------------------------------DOM MANIPULATION----------------------------------*/
 
 
 
