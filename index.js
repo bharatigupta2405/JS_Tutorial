@@ -246,5 +246,38 @@ console.log(myDate.getHours()); //o/p - 21
 
 /*---------------------------------------DOM MANIPULATION----------------------------------*/
 
+let elem= document.getElementById('click').click();// to click the click id /button
+// console.log(elem)
+let elemClass= document.getElementsByClassName('container')//we will get all the  info of that class
+// console.log(elemClass);
+// elemClass[0].style.background='yellow';//background colour will be yellow for the first element using class container
 
+elemClass[0].classList.add('bg-primary');//to add a class in container class by DOM manipulation same way we can add many classes
+elemClass[0].classList.add('text-success')//it will add text success to the 1st time container class is used not for all
+// elemClass[0].classList.remove('text-success');// to remove text- success class
+// console.log(elemClass[0].innerText);//for inner text
+// console.log(elemClass[0].innerHTML);// for inner html
+// tn=document.getElementsByTagName('button');
+// console.log(tn);
+tn=document.getElementsByTagName('div');
+console.log(tn)
+createdElement=document.createElement('p');
+createdElement.innerText='This is created text';
+tn[0].appendChild(createdElement);// to create a child of an element 
+createdElement2=document.createElement('b');
+createdElement2.innerText='This is replaced and created bold child 2';
+tn[0].replaceChild(createdElement2,createdElement);// to replace
+// removeChild(element); // to remove an element
 
+console.log(document.location);//return the location like ip etc
+console.log(document.title);//returb title of our page which is nothing but this page
+console.log(document.URL);//return the URL of our web page for ex now it's local 
+console.log(document.scripts);//return all the scripts in our Web page
+console.log(document.domain);//return the domain for now it's localhost
+console.log(document.images);//return all the images 
+// ----selecting using query selector---------
+
+sel= document.querySelector('.container')//it will return the first container class
+console.log(sel)
+sel=document.querySelectorAll('.container');// it will return all container class
+console.log(sel);
