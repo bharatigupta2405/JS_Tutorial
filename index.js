@@ -210,8 +210,24 @@ for(var i=0;i<arr.length;i++){
 */
 
 /*-----------------------------------------Array methods--------------------------------*/
+let myArr=[34,'Bharati','food',null,true]
+// myArr.pop()// it will pop the last element of the array
+// myArr.length()//return length of the array
+// myArr.push('Harry')//it will add harry at the last of the array
+// myArr.shift()//it will remove the 1st element of the array
+// myArr.unshift('food')//it will add food in the 1st place 0th position and if we print it at first it will write the length of array
+// myArr.sort()//first it will convert array into string values then sort accordingly
+// myArr.toString()//converts array to a single string
+// console.log(myArr)
 
-
+/*------------------------------------String Methods----------------------------------*/
+let myString= 'Bharati is a good girl good good';
+console.log(myString.length);//return the length of the string
+console.log(myString.indexOf('good'));//return the first index of good
+console.log(myString.lastIndexOf('good'));//return the last index of good
+console.log(myString.slice(1,3))//print 1st index to 3-1 index
+d=myString.replace('Bharati','harsh');//replace first occurance of bharati with harsh
+console.log(d,myString)
 
 
 
