@@ -348,3 +348,27 @@ logkaro= ()=>{
 
 
 /*--------------------------------------Local Storage in JS--------------------------------*/
+//local storage is something we store locally and we should not store too much data here and
+//we can see local storage of any website we just need to inspect and go to application and then local data
+localStorage.setItem('name','Bharati');// to add the data 
+localStorage.getItem('name');//to print the data of local storage
+//localStorage.clear();// to clear local storage
+
+/*----------------------------------------------JSON------------------------------------*/
+/*JSON is an acronym for JavaScript Object Notation, is an open standard format, 
+which is lightweight and text-based,
+ designed explicitly for human-readable data interchange.
+  It is a language-independent data format. It supports 
+  almost every kind of language, framework, and library.*/
+
+// obj = {name: "harry", length: 1, a: {this: 'tha"t'}}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso)
+// console.log(jso)
+// parsed = JSON.parse(`{"name":"harry","length":1,"a":{"this":"that"}}`)
+// console.log(parsed);
+
+
+// Template literals - Backticks
+a = 34;
+console.log(`this is my ${a}`)// it will take the value of a just like in python string literals
