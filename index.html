@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <p1>welcome to my js notes</p1>
     <h1>Hi There</h1>
-    <div id="firstcontainer" class="container"> 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam expedita dolore in ipsa aliquam provident libero quod, iure, assumenda inventore omnis sunt, est perferendis! Numquam distinctio aspernatur amet. Qui, error?</p>
-    <!-- div.container to write a class whose name is container imp- (.) dot is used for class -->
-    <!-- firstcontainer.innerHTML='Hello'
+    <div id="firstcontainer" class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam expedita dolore in ipsa aliquam provident
+            libero quod, iure, assumenda inventore omnis sunt, est perferendis! Numquam distinctio aspernatur amet. Qui,
+            error?</p>
+        <!-- div.container to write a class whose name is container imp- (.) dot is used for class -->
+        <!-- firstcontainer.innerHTML='Hello'
     O/P-'Hello' (in Output screen as well as in console)
     firstcontainer.innerHTML='<b>Hello you are bold now </b>'
     O/P- '<b>Hello you are bold now </b>' (in Output screen as well as in console and <b> tag will disappear in browser and appear in bold) -->
-    <!-- DOM Manipulation-
+        <!-- DOM Manipulation-
         document.getElementsByTagName('h1') // to get all the element whose tag is h1 it will return a array and we can manipulate that h1 according to our need
         HTMLCollection []length: 0
         [[Prototype]]: HTMLCollectionitem: ƒ item()length: (...)namedItem: ƒ etc.
@@ -32,28 +36,38 @@
         document.getElementsByTagName('h1')[0].style.visibility='none'
         'none' (now the space it was taking previously ab wo v nai legi)
     -->
-        <button id="click">click me</button> 
-         <!-- // button#click is used to create a id which is used to click # is used to create a ID -->
-
+        <button id="click" onclick="clicked()">click me</button>
+        <!-- // button#click is used to create a id which is used to click # is used to create a ID -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur libero, magni ducimus quam culpa harum
+            minima consectetur quos, voluptatum unde dignissimos iste hic ab consequatur quidem, ullam asperiores!
+            Excepturi, quod.</p>
+    </div>
+    <div class="container">
+        <button id="click" onclick="clicked()">click me</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis .</p>
     </div>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        .container{
+
+        .container {
             border: 2px solid red;
             margin: 3px 0;
             background: cyan;
             padding: 9px;
         }
-        .bg-primary{
+
+        .bg-primary {
             background: pink;
         }
-        .text-success{
+
+        .text-success {
             -webkit-text-fill-color: palevioletred;
         }
     </style>
     <script src="index.js"></script>
 </body>
+
 </html>

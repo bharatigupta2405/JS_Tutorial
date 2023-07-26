@@ -210,13 +210,13 @@ for(var i=0;i<arr.length;i++){
 */
 
 /*-----------------------------------------Array methods--------------------------------*/
-let myArr=[34,'Bharati','food',null,true]
+let myArr = [34, 'Bharati', 'food', null, true]
 // myArr.pop()// it will pop the last element of the array
 // myArr.length()//return length of the array
 // myArr.push('Harry')//it will add harry at the last of the array
 // myArr.shift()//it will remove the 1st element of the array
 // myArr.unshift('food')//it will add food in the 1st place 0th position and if we print it at first it will write the length of array
-// myArr.sort()//first it will convert array into string values then sort accordingly
+// myArr.sort()//first it will consider array to string values then sort accordingly
 // myArr.toString()//converts array to a single string
 // console.log(myArr)
 
@@ -246,9 +246,9 @@ console.log(myDate.getHours()); //o/p - 21
 
 /*---------------------------------------DOM MANIPULATION----------------------------------*/
 
-let elem= document.getElementById('click').click();// to click the click id /button
+let elem = document.getElementById('click').click();// to click the click id /button
 // console.log(elem)
-let elemClass= document.getElementsByClassName('container')//we will get all the  info of that class
+let elemClass = document.getElementsByClassName('container')//we will get all the  info of that class
 // console.log(elemClass);
 // elemClass[0].style.background='yellow';//background colour will be yellow for the first element using class container
 
@@ -259,14 +259,15 @@ elemClass[0].classList.add('text-success')//it will add text success to the 1st 
 // console.log(elemClass[0].innerHTML);// for inner html
 // tn=document.getElementsByTagName('button');
 // console.log(tn);
-tn=document.getElementsByTagName('div');
+/*
+tn = document.getElementsByTagName('div');
 console.log(tn)
-createdElement=document.createElement('p');
-createdElement.innerText='This is created text';
+createdElement = document.createElement('p');
+createdElement.innerText = 'This is created text';
 tn[0].appendChild(createdElement);// to create a child of an element 
-createdElement2=document.createElement('b');
-createdElement2.innerText='This is replaced and created bold child 2';
-tn[0].replaceChild(createdElement2,createdElement);// to replace
+createdElement2 = document.createElement('b');
+createdElement2.innerText = 'This is replaced and created bold child 2';
+tn[0].replaceChild(createdElement2, createdElement);// to replace
 // removeChild(element); // to remove an element
 
 console.log(document.location);//return the location like ip etc
@@ -277,7 +278,40 @@ console.log(document.domain);//return the domain for now it's localhost
 console.log(document.images);//return all the images 
 // ----selecting using query selector---------
 
-sel= document.querySelector('.container')//it will return the first container class
-console.log(sel)
-sel=document.querySelectorAll('.container');// it will return all container class
+sel = document.querySelector('.container')//it will return the first container class
 console.log(sel);
+sel = document.querySelectorAll('.container');// it will return all container class
+console.log(sel);
+*/
+
+//-----------------------Events in JS-----------------------------------------//
+//so what is Events--> Events mean anything happen we want to listen those things we say that it is an event
+//for ex agar hm apna mouse ko kisi button ke upar hover kiye to wo ek event h button click kiye wo ek event h
+//similarly hm apne web page me mouse ko le gaye wo v ek event h
+
+// function clicked(){
+//     console.log('The button is clicked');
+// }
+/*
+window.onload=function(){
+    console.log('reload hua page');
+}
+firstcontainer.addEventListener('click',function(){
+    document.querySelector('.container')[1].innerText='<b>clicked on container</b>'
+    // console.log('clicked on container')
+})
+firstcontainer.addEventListener('mouseover',function(){
+    console.log('Mouse on container')
+})
+firstcontainer.addEventListener('mouseout',function(){
+    console.log('Mouse out of container')
+}) 
+prevHTML=document.querySelector('.container').innerHTML;
+firstcontainer.addEventListener('mouseup',function(){
+    document.querySelector('.container')[1].innerHTML=prevHTML;
+    console.log('Mouse up when clicked on container')
+})
+firstcontainer.addEventListener('mousedown',function(){
+    document.querySelector('.container')[1].innerHTML='<b>we have clicked</b>'
+    console.log('Mouse down when clicked on container')
+}) */
