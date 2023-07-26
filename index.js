@@ -289,9 +289,9 @@ console.log(sel);
 //for ex agar hm apna mouse ko kisi button ke upar hover kiye to wo ek event h button click kiye wo ek event h
 //similarly hm apne web page me mouse ko le gaye wo v ek event h
 
-// function clicked(){
-//     console.log('The button is clicked');
-// }
+function clicked(){
+    console.log('The button is clicked');
+}
 /*
 window.onload=function(){
     console.log('reload hua page');
@@ -334,3 +334,11 @@ summ = (a,b) =>{
 }
 console.log(summ(34,5));
 */
+
+
+//---------------------------------------------set Timeout------------------------------------//
+logkaro= ()=>{
+    console.log('settimeout');
+}
+//setTimeout(logkaro,5000);//settimeout function 2 argument lega first argument ek function 2nd arg kitne mili second ke bad usko execute karna h
+//setInterval(logkaro,5000);//settimeout function 2 argument lega first argument ek function 2nd arg kitne mili second ke bad usko repeat karna h
