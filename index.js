@@ -340,5 +340,11 @@ console.log(summ(34,5));
 logkaro= ()=>{
     console.log('settimeout');
 }
-//setTimeout(logkaro,5000);//settimeout function 2 argument lega first argument ek function 2nd arg kitne mili second ke bad usko execute karna h
-//setInterval(logkaro,5000);//settimeout function 2 argument lega first argument ek function 2nd arg kitne mili second ke bad usko repeat karna h
+//c=setTimeout(logkaro,5000);//settimeout function 2 argument lega first argument ek function 2nd arg kitne mili second ke bad usko execute karna h
+//clr= setInterval(logkaro,5000);//settimeout function 2 argument lega first argument ek function 2nd arg kitne mili second ke bad usko repeat karna h
+//clearInterval(clr)//to stop the setIntervel we use clear intervel and stopped it
+//clearTimeout(c)// to stop set timeout
+
+
+
+/*--------------------------------------Local Storage in JS--------------------------------*/
