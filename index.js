@@ -315,3 +315,22 @@ firstcontainer.addEventListener('mousedown',function(){
     document.querySelector('.container')[1].innerHTML='<b>we have clicked</b>'
     console.log('Mouse down when clicked on container')
 }) */
+
+//--------------------------Arrow Functions------------------------------------//
+//what is arrow function -> previously we define function like this function() but now we can directly
+// write the function name and pass the parameters will show below
+
+//Previously we write function like
+/*
+function summ(a,b){
+    return a+b;
+}
+console.log(summ(34,5));
+*/
+//but with arrow function
+/*
+summ = (a,b) =>{
+    return a+b;
+}
+console.log(summ(34,5));
+*/
