@@ -37,6 +37,12 @@ var marks = {
     Bharati: 98,
     Abhimanyu: 100
 }// it takes value in key value pair
+if it is written like 
+var marks = {
+    Harsh:[ 88,90,;bhar'],
+    Bharati: 98,
+    Abhimanyu: 100}
+and we want to print the value of harsh then write console.log(marks[Harsh])
 
 // console.log(marks)
 
